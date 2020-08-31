@@ -1,6 +1,6 @@
 import java.util.LinkedList;
 
-public class BreadthFirstSearch extends Graph {
+public class BreadthFirstSearch {
 	public BreadthFirstSearch(int v) {
 		super(v);
 	}
