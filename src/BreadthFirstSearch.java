@@ -1,8 +1,9 @@
 import java.util.LinkedList;
 
 public class BreadthFirstSearch {
-	public BreadthFirstSearch(int v) {
-		super(v);
+	Graph g;
+	public BreadthFirstSearch(Graph g) {
+		this.g = g;
 	}
 
 	void BFS(int start){
